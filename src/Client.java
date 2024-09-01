@@ -12,6 +12,8 @@ public class Client {
 
         ObjectInputStream ois1=new ObjectInputStream(socket.getInputStream());
         ObjectOutputStream oos2=new ObjectOutputStream(socket.getOutputStream());
+        //ObjectInputStream ois1=new ObjectInputStream(socket.getInputStream());
+
 
         Scanner scanner = new Scanner(System.in);
 
